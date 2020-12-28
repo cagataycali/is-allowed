@@ -1,0 +1,26 @@
+{
+  "name": "is-allowed",
+  "version": "1.0.0",
+  "description": "Am I allowed to redirect",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cagataycali/is-allowed.git"
+  },
+  "keywords": [
+    "open",
+    "redirect"
+  ],
+  "author": "Cagatay Cali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/is-allowed/issues"
+  },
+  "homepage": "https://github.com/cagataycali/is-allowed#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
