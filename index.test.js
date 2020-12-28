@@ -21,4 +21,5 @@ test("Could handle tlds", () => {
   expect(redirect.isAllowed("google.de")).toBe(false);
   expect(redirect.isAllowed("https://google.de")).toBe(true);
   expect(redirect.isAllowed("https://google.de/test")).toBe(true);
+  expect(redirect.isAllowed("https://test.subdomain.google.de/test")).toBe(true);
 });
