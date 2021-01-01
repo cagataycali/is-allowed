@@ -14,7 +14,7 @@ class Redirect {
   }
   isAllowed(url) {
     // Starts with /
-    if (url.startsWith('/')) {
+    if (url.startsWith('/') && !url.startsWith('//')) {
       return true
     }
     // If the url starts with http or https,
