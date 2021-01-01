@@ -1,6 +1,6 @@
 {
   "name": "is-allowed",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Am I allowed to redirect",
   "main": "index.js",
   "scripts": {
