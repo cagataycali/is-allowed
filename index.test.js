@@ -5,6 +5,8 @@ test("Could handle w/o tlds", () => {
   const redirect = new Redirect(domain);
   expect(redirect.isAllowed("/")).toBe(true);
   expect(redirect.isAllowed("/test")).toBe(true);
+  expect(redirect.isAllowed("//test.com")).toBe(false);
+  expect(redirect.isAllowed("///test.com")).toBe(false);
   expect(redirect.isAllowed("http://google.com/test")).toBe(true);
   expect(redirect.isAllowed("http://google.de")).toBe(false);
   expect(
